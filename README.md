@@ -2,6 +2,4 @@
 ESX default menu redesign [V1]
 
 _ | Discord para más info y scripts --> https://discord.gg/gT7RYMtQkZ
-_ | Preview:
-
-![MenuDefault.png](https://i.postimg.cc/SQDHB4Hk/esx-menu-default-V1.png)
+| Preview: ![MenuDefault.png](https://i.postimg.cc/SQDHB4Hk/esx-menu-default-V1.png)
