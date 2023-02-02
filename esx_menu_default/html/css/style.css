@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap');
+
+.menu {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	overflow: hidden;
+	font-size: 10px;
+	padding: 12px;
+	min-width: 350px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+	width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgb(229, 229, 234);
+	border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: rgb(229, 229, 234);
+	border-radius: 5px;
+  }
+
+.menu .head {
+    position: center;
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+	overflow: hidden;
+    font-size: 17px;
+	font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(28, 28, 30, .95);
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	margin-bottom: .1px;
+	image-orientation: flip;
+	border-bottom: 1px solid rgba(229, 229, 234, .5);
+}
+.menu .menu-items {
+	background: rgba(28, 28, 30, .95);
+	padding: 9px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.menu .menu-items .menu-item {
+	display: block;
+	padding: 6px;
+	font-size: 15px;
+	text-align: left;
+	text-indent: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 1px solid rgba(229, 229, 234, .5);
+}
+
+.menu .menu-items .menu-item.selected {
+	animation: fadeIn 5s;
+	background-color: rgba(229, 229, 234, .5);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgb(229, 229, 234, .5);
+	border-left: 2px solid #fff;
+}
