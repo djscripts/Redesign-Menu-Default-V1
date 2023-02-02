@@ -6,4 +6,4 @@ ESX default menu redesign [V1]
 
 ![MenuDefault.png](https://i.postimg.cc/SQDHB4Hk/esx-menu-default-V1.png)
 
-🇪🇸
+Google (Android 12L)
